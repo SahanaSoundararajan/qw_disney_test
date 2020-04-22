@@ -1,0 +1,13 @@
+{
+    "apiUrl": "https://services.automation.qubewire.com/",
+    "clientId": "c4c17e011e234fffa0e7fec2056a30dd",
+    "clientSecret": "6f2df7cc748b49e3bb1f543c9998adeb",
+    "s3Host": null,
+    "productId": "686e8a53-bf21-42e0-8b5d-252d95049f81",
+    "clientRedirectUrl": "https://services.automation.qubewire.com/admin/api/v1/web/auth/callback",
+    "admin1": {
+      "qubeAccountEmail": "abcdreal.image+admin@gmail.com",
+      "qubeAccountPassword": "abcd-12"
+    },
+    "ignoreFailureAndContinue": true
+  }

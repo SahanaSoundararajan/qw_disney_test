@@ -1,0 +1,11 @@
+{
+    "monarchMock": 7000,
+    "qbankMock": 7002,
+    "dispatcherMock": 7003,
+    "qubeAccountMock": 7004,
+    "moviebuffMock": 7005,
+    "qwaServerMock": 7006,
+    "gatewayMock": 7007,
+    "qubeStoreMock": 7008,
+    "cinemasMock": 7009
+}

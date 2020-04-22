@@ -1,0 +1,8 @@
+{
+    "url": "https://account.staging.qube.in",
+    "dbHost": "",
+    "dbName": "",
+    "dbUsername": "",
+    "dbPassword": "",
+    "qubeAccountSenderEmail": "noreply@qubecinema.com"
+  }

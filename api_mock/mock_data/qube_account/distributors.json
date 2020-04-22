@@ -1,0 +1,215 @@
+{
+    "companies": {
+      "33314526-1bd8-4fd5-b32a-c0ad40c6d8a6": {
+        "id": "33314526-1bd8-4fd5-b32a-c0ad40c6d8a6",
+        "legal_name": "Company A",
+        "display_name": "Company A",
+        "website": "https://account.staging.qube.in/company",
+        "number": "KMPNYIN176",
+        "verified": true,
+        "updated_at": "2016-12-08 07:09:59",
+        "contact": {
+          "email": null,
+          "country_code": "",
+          "phone_number": ""
+        },
+        "address": {
+          "street": "Company A Street Address ",
+          "city": {
+            "id": "e039efb1-736f-4da2-9113-3d59a3ac5428",
+            "name": "Chennai"
+          },
+          "province": {
+            "id": "e5323810-6268-4a0a-9c9b-c6380e93cbb8",
+            "name": "Tamil Nadu"
+          },
+          "country": {
+            "id": "16a917fb-e15e-43b4-8ee9-5c3e822eb332",
+            "name": "India"
+          },
+          "post_code": ""
+        },
+        "users": [
+          {
+            "id": "c7b43f6f-901d-4f04-b568-7adcba9d4489",
+            "name": "Company A",
+            "last_name": "User",
+            "contact": {
+              "email": "compausr@gmail.com",
+              "country_code": "91",
+              "phone_number": "994193144"
+            },
+            "address": {
+              "street": null,
+              "city": {
+                "id": null,
+                "name": null
+              },
+              "province": {
+                "id": null,
+                "name": null
+              },
+              "country": {
+                "id": null,
+                "name": null
+              }
+            },
+            "role_in_company": {
+              "id": "d2a4d526-c62a-11e5-9912-ba0be0483c18",
+              "name": "user"
+            },
+            "services": [
+              {
+                "id": "686e8a53-bf21-42e0-8b5d-252d95049f81",
+                "name": "Qube Wire Staging",
+                "roles": [
+                  {
+                    "id": "c791fc5e-dbf8-4748-a866-9bec967b326d",
+                    "code": "user",
+                    "name": "User",
+                    "user_manager": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "b6c0e40f-a486-4cf4-b32d-367d7acb94d3",
+            "name": "Company A",
+            "last_name": "Approver",
+            "contact": {
+              "email": "compaaapp@gmail.com",
+              "country_code": "91",
+              "phone_number": "994193144"
+            },
+            "address": {
+              "street": null,
+              "city": {
+                "id": null,
+                "name": null
+              },
+              "province": {
+                "id": null,
+                "name": null
+              },
+              "country": {
+                "id": null,
+                "name": null
+              }
+            },
+            "role_in_company": {
+              "id": "d2a4d526-c62a-11e5-9912-ba0be0483c18",
+              "name": "user"
+            },
+            "services": [
+              {
+                "id": "686e8a53-bf21-42e0-8b5d-252d95049f81",
+                "name": "Qube Wire Staging",
+                "roles": [
+                  {
+                    "id": "6c86f47e-d3ad-4bd5-902e-84fe547be187",
+                    "code": "approver",
+                    "name": "Approver",
+                    "user_manager": false
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "2cff527e-c8cd-4451-9a68-b8b95230e93d",
+            "name": "Company A",
+            "last_name": "Admin",
+            "contact": {
+              "email": "compaaad@gmail.com",
+              "country_code": "91",
+              "phone_number": "994193144"
+            },
+            "address": {
+              "street": null,
+              "city": {
+                "id": null,
+                "name": null
+              },
+              "province": {
+                "id": null,
+                "name": null
+              },
+              "country": {
+                "id": null,
+                "name": null
+              }
+            },
+            "role_in_company": {
+              "id": "c8cbc9e2-c62a-11e5-9912-ba0be0483c18",
+              "name": "user"
+            },
+            "services": [
+              {
+                "id": "686e8a53-bf21-42e0-8b5d-252d95049f81",
+                "name": "Qube Wire Staging",
+                "roles": [
+                  {
+                    "id": "a09c3ca5-d89a-4559-81c1-24da72fc87e7",
+                    "code": "admin",
+                    "name": "Admin",
+                    "user_manager": true
+                  }
+                ]
+              }
+            ]
+          },
+          {
+            "id": "69eb6cd8-bd26-4bf8-9ec6-fca004a6bb62",
+            "name": "Company A",
+            "last_name": "Distributors Admin",
+            "contact": {
+              "email": "compaaad@gmail.com",
+              "country_code": "91",
+              "phone_number": "994193144"
+            },
+            "address": {
+              "street": null,
+              "city": {
+                "id": null,
+                "name": null
+              },
+              "province": {
+                "id": null,
+                "name": null
+              },
+              "country": {
+                "id": null,
+                "name": null
+              }
+            },
+            "role_in_company": {
+              "id": "c8cbc9e2-c62a-11e5-9912-ba0be0483c18",
+              "name": "user"
+            },
+            "services": [
+              {
+                "id": "686e8a53-bf21-42e0-8b5d-252d95049f81",
+                "name": "Qube Wire Staging",
+                "roles": [
+                  {
+                    "id": "f0b599c6-68e4-4d07-8fc8-c2fd33c4e1c5",
+                    "code": "qw_admin",
+                    "name": "QW Admin",
+                    "user_manager": true
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+    },
+    "tokenInfo": {
+      "distributors": {
+        "audience": "8ff03e5cc86547b4a64d4321a6ad4fbc",
+        "scopes": "composition.delete,dcp.upload,payment.read,dkdm.sign,download.any.read,download.any.write,theatre_list.write,composition.read,movie.write,theatre_list.delete,composition.write,payment_source.read,dcp_delivery.read,payment.write,theatre.write,dkdm.delete,theatre.read,dcp_delivery.write,movie.read,upload.read,dkdm.read,payment_source.write,dkdm.write,payment_source.delete,theatre_list.read,keys_booking.read,movie.delete,rights.read,keys_booking.write,rights.write,upload.any.read,dcp.sign,duplication.write,systemstate.read,duplication.read,dkdm.read,appliance.read,composition.read,payment.read,keys_booking.write,appliance.write,keys_booking.read,movie.read,payment_source.delete,payment_source.read,payment.write,theatre_list.read,payment_source.write,tags.read,registration.read,dcp_delivery.remediate,registration.read,registration.write,rights.read,registration.write,workorder.read,rights.write,systemstate.read,work_orders.read,booking.remediate",
+        "expires_in": 86396
+      }
+    }
+  }
