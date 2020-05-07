@@ -1,0 +1,4 @@
+[submodule "qw_utils"]
+	path = qw_utils
+	url = git@github.com:RealImage/qw-utils-test.git
+	branch = develop
