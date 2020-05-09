@@ -1,0 +1,53 @@
+version: "3"
+
+services:
+
+  postgres-{ID}:
+    image: postgres:10.7
+    container_name: {PREFIX}-postgres-booking-manager-{ID}
+    networks:
+      - docker_net-{ID}
+    ports:
+      - 5432
+    environment:
+      - POSTGRES_PASSWORD=P0stgr3sStag
+      - POSTGRES_USER=dbroot
+      - POSTGRES_DB=qw-ofe-adapter
+    working_dir: /postgres-dump/
+
+  disney-ofe:
+    build: {OFE_ADAPTER_CHECKOUT_DIR}
+    image: qw-disney-ofe-adapter
+    container_name: qw-disney-ofe-adapter-docker
+    networks:
+      - docker_net
+    ports:
+      - 6001:6001
+    env_file:
+      - {OFE_ADAPTER_ENV_FILE}
+    depends_on:
+      - postgres
+
+  disney-ofe-test:
+    build: {OFE_ADAPTER_TEST_CHECKOUT_DIR}
+    image: qw-disney-ofe-adapter
+    container_name: qw-disney-ofe-adapter-test-docker
+    stdin_open: true
+    tty: true
+    networks:
+      - docker_net
+    volumes:
+      - ./:/qw-disney-ofe-adapter-test
+    working_dir: /qw-disney-ofe-adapter-test
+
+  start_dependencies:
+    image: dadarek/wait-for-dependencies
+    networks:
+      - docker_net
+    depends_on:
+      - postgres
+    command: postgres:5432
+
+networks:
+  docker_net:
+    driver: bridge
