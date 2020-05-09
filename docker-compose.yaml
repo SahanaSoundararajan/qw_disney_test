@@ -4,9 +4,9 @@ services:
 
   postgres-{ID}:
     image: postgres:10.7
-    container_name: {PREFIX}-postgres-booking-manager-{ID}
+    container_name: postgres-docker
     networks:
-      - docker_net-{ID}
+      - docker_net
     ports:
       - 5432
     environment:
